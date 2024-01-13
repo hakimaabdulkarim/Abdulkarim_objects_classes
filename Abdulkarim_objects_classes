@@ -1,0 +1,19 @@
+import math
+class circle:
+        def __init__(self, radius):
+            self.radius= radius
+    
+        def area(self):
+            Circle_area = math.pi * self.radius ** 2
+            print(f"\nthe area of a circle is: {Circle_area:.2f}")
+        
+        def perimeter(self):
+            Circle_area = 2 * math.pi * self.radius
+            print(f"the perimeter of a circle is: {Circle_area:.2f}")
+            
+radius = float(input("Enter a Radius: "))
+    
+circle = circle(radius)
+        
+circle.area()
+circle.perimeter()
